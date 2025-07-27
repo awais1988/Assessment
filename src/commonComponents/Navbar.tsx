@@ -16,16 +16,15 @@ import Colors from '../constants/ColorConst';
 
 interface NavItem {
   label: string;
-  href: string;
 }
 
 const DEFAULT_NAV_ITEMS: NavItem[] = [
-  { label: 'Showcase', href: '/showcase' },
-  { label: 'Docs', href: '/docs' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Analytics', href: '/analytics' },
-  { label: 'Templates', href: '/templates' },
-  { label: 'Enterprise', href: '/enterprise' },
+  { label: 'Showcase' },
+  { label: 'Docs' },
+  { label: 'Blog' },
+  { label: 'Analytics' },
+  { label: 'Templates' },
+  { label: 'Enterprise' },
 ];
 
 interface NavbarProps {
