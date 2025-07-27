@@ -12,6 +12,7 @@
 - [Running the App](#-running-the-app)
 - [Building for Production](#-building-for-production)
 - [Troubleshooting](#-troubleshooting)
+- [Testing](#-testing)
 
 ## 📂 Project Structure
 
@@ -97,6 +98,14 @@ src/
 | Missing iOS dependencies      | Run `cd ios && pod install && cd ..`                                      |
 | TypeScript compilation errors | Check for type inconsistencies and run `yarn tsc --noEmit` for validation |
 | App crashes on launch         | Clear cache: `yarn cache clean` and rebuild                               |
+
+## 📝 Testing
+
+Run unit tests:
+
+```bash
+yarn test
+```
 
 ## ❓ Need Help?
 
