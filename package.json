@@ -1,0 +1,49 @@
+{
+  "name": "Assessment",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native/new-app-screen": "0.80.2",
+    "@react-navigation/native": "^7.1.15",
+    "@react-navigation/stack": "^7.4.3",
+    "@testing-library/react-native": "^13.2.0",
+    "react": "19.1.0",
+    "react-native": "0.80.2",
+    "react-native-gesture-handler": "^2.27.2",
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-screens": "^4.13.1",
+    "react-native-vector-icons": "^10.3.0",
+    "ts-jest": "^29.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "19.1.1",
+    "@react-native-community/cli-platform-android": "19.1.1",
+    "@react-native-community/cli-platform-ios": "19.1.1",
+    "@react-native/babel-preset": "0.80.2",
+    "@react-native/eslint-config": "0.80.2",
+    "@react-native/metro-config": "0.80.2",
+    "@react-native/typescript-config": "0.80.2",
+    "@types/jest": "^30.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "@types/react-test-renderer": "^19.1.0",
+    "eslint": "^8.19.0",
+    "jest": "^30.0.5",
+    "prettier": "2.8.8",
+    "react-test-renderer": "^19.1.0",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
